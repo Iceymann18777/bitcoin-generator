@@ -1,0 +1,43 @@
+{
+  "name": "bitcoin-app",
+  "version": "1.0.42",
+  "description": "Bitcoin app by Bitcoin-Api.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitcoin-api/bitcoin-app.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "api",
+    "app",
+    "javascript",
+    "nodejs",
+    "testnet",
+    "simple",
+    "quick",
+    "light",
+    "fast",
+    "beginner",
+    "advanced"
+  ],
+  "author": "Michael Stecky-Efantis of Bitcoin-Api.io",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bitcoin-api/bitcoin-app/issues"
+  },
+  "dependencies": {
+    "bitcoin-api": "^3.6.19",
+    "react-state-management": "^1.0.3"
+  },
+  "peerDependencies": {
+    "@react-native-community/async-storage": "^1.9.0",
+    "@react-native-community/clipboard": "^1.2.2",
+    "react": "16.11.0",
+    "react-native": "0.62.2"
+  },
+  "homepage": "https://github.com/bitcoin-api/bitcoin-app#readme"
+}
