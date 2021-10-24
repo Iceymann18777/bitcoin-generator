@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K4LTSC6');</script>
+<!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wallet of Satoshi | The World's Simplest Bitcoin Lightning Network Wallet</title>
+  <meta name="description" content="Wallet of Satoshi is a mobile app for iOS and Android that lets you send and receive Bitcoin and Lightning payments.">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/main-style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <!--link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i" rel="stylesheet"-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./assets/images/icon.png">
+  <link rel="canonical" href="https://www.walletofsatoshi.com">
+
+<!-- Social sharing Cards -->
+<meta name="twitter:card" content="app">
+<meta name="twitter:site" content="@walletofsatoshi">
+<meta name="twitter:description" content="Wallet of Satoshi is a mobile app for iOS and Android that lets you send and receive Bitcoin and Lightning payments.">
+<meta name="twitter:app:name:iphone" content="Wallet of Satoshi">
+<meta name="twitter:app:id:iphone" content="1438599608">
+<meta name="twitter:app:name:ipad" content="Wallet of Satoshi">
+<meta name="twitter:app:id:ipad" content="1438599608">
+<meta name="twitter:app:name:googleplay" content="Wallet of Satoshi">
+<meta name="twitter:app:id:googleplay" content="com.livingroomofsatoshi.wallet">
+
+  <meta property="og:title" content="Wallet of Satoshi - The Worlds Simplest Bitcoin Lightning Wallet">
+  <meta property="og:description" content="Wallet of Satoshi is a mobile app for iOS and Android that lets you send and receive Bitcoin and Lightning payments. It is a zero-configuration custodial wallet with a focus on simplicity and the best possible user experience.">
+  <meta property="og:image" content="https://www.walletofsatoshi.com/assets/images/wallet-of-satoshi-screen.png">
+  <meta property="og:url" content="https://www.walletofsatoshi.com">
+
+  <!-- FB Domain Verification -->
+  <meta name="facebook-domain-verification" content="p07h7h6sqwr007ftgkfm5j1ht8awe5" />
+
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+
+  <!-- Odometr includes -->
+  <link rel="stylesheet" href="./assets/css/odometer-theme-car.css"/>
+  <script src="./assets/js/odometer-0.4.6.min.js"></script>
+
+  <!-- Extra styles for this example -->
+  <style>
+    .odometer {
+      font-size: 60px;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151028853-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-151028853-1');
+  </script>
+
+  <!-- Adroll tag -->
+
+  <script type="text/javascript">
+    adroll_adv_id = "KGMGTC3W6RFBVHK3GOGU43";
+    adroll_pix_id = "WNCGRODFHZCPNBMDVOKFPO";
+    adroll_version = "2.0";
+
+    (function(w, d, e, o, a) {
+      w.__adroll_loaded = true;
+      w.adroll = w.adroll || [];
+      w.adroll.f = [ 'setProperties', 'identify', 'track' ];
+      var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id
+              + "/roundtrip.js";
+      for (a = 0; a < w.adroll.f.length; a++) {
+        w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) {
+          return function() {
+            w.adroll.push([ n, arguments ])
+          }
+        })(w.adroll.f[a])
+      }
+
+      e = d.createElement('script');
+      o = d.getElementsByTagName('script')[0];
+      e.async = 1;
+      e.src = roundtripUrl;
+      o.parentNode.insertBefore(e, o);
+    })(window, document);
+    adroll.track("pageView");
+  </script>
+
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4LTSC6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<section id="home" class="section hero">
+  <div class="container">
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <a class="navbar-brand main_logo" href="#">
+        <img src="./assets/images/wallet-logo.svg" alt="Wallet of Satoshi" height="100" width="300"/>
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="main_navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#screenshots">Screenshots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="business.html">Business API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#download">Contact</a>
+          </li>
+          <li>
+            <a href="#download" class="header_btn btn btn-primary btn-download">Download</a>
+            <!--<a href="#download" class="header_btn btn btn-primary btn-download">Coming soon</a>-->
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row hero_row">
+      <div class="col-md-5 col-xl-6 tablet-hidden">
+        <div class="iphones">
+          <div class="iphone_1"></div>
+          <div class="iphone_2"></div>
+        </div>
+      </div>
+      <div class="col-md-7 col-xl-6 tablet-full">
+        <div class="hero_text">
+          <img id="taglineImg" src="./assets/images/tagline.svg" alt="The World's Simplest Lightning Wallet" height="200" width="90%"/>
+          <!--h1><i class="fa fa-bolt small" style="color: #fad228"></i> Wallet of Satoshi</h1>
+          <br>
+          <h4>The world's
+            <span class="font-weight-bold" style="text-decoration: underline; font-size: larger">simplest</span> Lightning Wallet.
+          </h4>
+          <br-->
+          <br>
+
+
+          <div class="buttons">
+            <div id="downloadTop" class="download">
+              <div class="download_links">
+                <a href="https://itunes.apple.com/us/app/wallet-of-satoshi/id1438599608" id="ioslink">
+                  <img src="./assets/icons/apple_download.png" alt="Download on the App Store" style="border: solid 2px #77787a;border-radius: 11px;">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet" id="playlink">
+                  <img src="./assets/icons/google-play-badge.png" alt="Get it on Google play">
+                </a>
+              </div>
+            </div>
+          </div>
+          <h6 style="color: white">Number of lightning payments made:</h6>
+          <div id="odometer" class="odometer">666</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--section id="features" class="section features">
+    <div class="container">
+        <h2 class="section_title">Features</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature_item">
+                    <img src="./assets/icons/feature_1.png" alt="">
+                    <h3>Super Secured</h3>
+                    <p>
+                        Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature_item">
+                    <img src="./assets/icons/feature_2.png" alt="">
+                    <h3>Detailed Analytics</h3>
+                    <p>
+                        Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature_item">
+                    <img src="./assets/icons/feature_3.png" alt="">
+                    <h3>For any business</h3>
+                    <p>
+                        Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section-->
+<section id="screenshots" class="section screenshots">
+  <div class="container">
+    <div class="screenshots_row row">
+      <div class="first">
+        <div class="screenshot active" data-screen="0">
+          <i class="far fa-check-circle"></i>
+          <h3>Simple Layout</h3>
+          <p>Just what you need to see, and nothing you don't.</p>
+        </div>
+
+        <div class="screenshot" data-screen="2">
+          <i class="fab fa-bitcoin"></i>
+          <h3>Top Up Options</h3>
+          <p>Send bitcoin from an exchange or buy directly from us.</p>
+        </div>
+      </div>
+      <div class="iphone">
+        <div class="iphone_x">
+          <div id="screen_slider" class="screen_slider owl-carousel">
+            <div><img src="./assets/images/home-screenshot-satoshi.png" alt=""></div>
+            <div><img src="./assets/images/pay-screenshot-satoshi.png" alt=""></div>
+            <div><img src="./assets/images/top-up-screenshot.png" alt=""></div>
+            <div><img src="./assets/images/splash-screenshot.png" alt=""></div>
+          </div>
+
+        </div>
+      </div>
+      <div class="last">
+        <div class="screenshot" data-screen="1">
+          <i class="fas fa-qrcode"></i>
+          <h3>Scan to Pay</h3>
+          <p>Scan the merchant's QR code. Confirm. Done.</p>
+        </div>
+
+        <div class="screenshot" data-screen="3">
+          <i class="fas fa-female"></i>
+          <h3>So Easy - your Mum could use it</h3>
+          <p>No fuss, no confusion.</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center clearfix section_button">
+      <a href="#download" class="btn btn-primary btn-lg btn-download">Download the app</a>
+      <!--<a href="#download" class="btn btn-primary btn-lg btn-download">Coming soon</a>-->
+    </div>
+
+  </div>
+</section>
+<!--section id="news" class="section news">
+
+    <div class="container">
+        <h2 class="section_title">For every kind of Business!</h2>
+        <p class="section_desription">Donec facilisis tortor ut augue lacinia, at viverra est semper.</p>
+        <div class="row news_block">
+            <div class="col-md-4">
+                <a href="#" class="news_item">
+                    <img src="./assets/images/news_1.jpg" alt="">
+                    <div class="content">
+                        <h3>Startups</h3>
+                        <p>In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="news_item">
+                    <img src="./assets/images/news_2.jpg" alt="">
+                    <div class="content">
+                        <h3>Startups</h3>
+                        <p>In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="news_item">
+                    <img src="./assets/images/news_3.jpg" alt="">
+                    <div class="content">
+                        <h3>Startups</h3>
+                        <p>In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="text-center clearfix section_button">
+            <a href="#" class="btn btn-outline-primary btn-lg ">Learn more</a>
+        </div>
+    </div>
+
+</section-->
+
+<section id="faq" class="section faq">
+  <br><br>
+  <div class="container " style="padding-top:13px">
+    <h1>Frequently Asked Questions</h1>
+    <div class="row">
+      <div id="accordion" class="col-lg-6 col-md-6 col-12">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What is Lightning?
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Lightning is an open source retail payment system built on top of Bitcoin. Its main purpose is to enable extremely fast and cheap payments, much faster and cheaper than regular Bitcoin transactions, while retaining the same level of security.
+            <br>
+            <br>
+            It is used for the kind of payments that you would expect when shopping; fast, cheap and reliable. It also allows for micro-payments: the sending of extremely small amounts of money, in the order of one ten-thousandth of a cent at a time.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What is Wallet of Satoshi?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Wallet of Satoshi is a mobile app for iOS and Android that lets you send and receive Lightning payments.
+            <br><br>
+            It is a zero-configuration custodial wallet with a focus on simplicity and the best possible user experience. It can be downloaded using the links at walletofsatoshi.com
+            <br><br>
+            Simply download and install the app and you are on the Lightning Network!
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What is a Satoshi?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            A satoshi is the smallest unit of the Bitcoin currency recorded on the block chain. It is a one hundred millionth of a single bitcoin (0.00000001 BTC). The unit was named in homage to the pseudonymous creator of Bitcoin, Satoshi Nakamoto.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              Where Can I Spend Lightning?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            You are still early, but the list is growing all the time. You can:
+            <br>
+            <br>
+            <ul>
+              <li>Pay bills or withdraw AUD at <a href="https://www.livingroomofsatoshi.com">Living Room of Satoshi</a>
+              </li>
+              <li>Find online stores that accept Lightning at
+                <a href="http://lightningnetworkstores.com">Lightning Network Stores</a></li>
+              <li>Spend at Australia's network of Lightning retailers (cafes, car washes, restaurants etc)
+                <a href="https://travelbybit.com/shops-that-accept-bitcoin">TravelByBit merchants</a></li>
+              <li>Unlock articles to read at <a href="https://yalls.org">Y'alls</a></li>
+              <li>Browse the best new Lightning Apps at <a href="https://www.lapps.co">Lapps.co</a></li>
+              <li>Raise funds at <a href="https://tallyco.in/">tallycoin</a></li>
+              <li>Send us a tip at <a href="https://tippin.me/@walletofsatoshi">tippin.me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div id="accordion2" class="col-lg-6 col-md-6 col-12">
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button class="btn" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                Can I Pay To A Regular BTC Address?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion2">
+            <div class="card-body">
+              Of Course! With Wallet of Satoshi you can pay a Lightning Invoice or send directly to an on-chain Bitcoin address.
+              <br>
+              <br>
+              When you scan a QR code (or paste it directly into your wallet), your WoS will automatically identify what type of payment it is and will create the correct transaction type for you instantly.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h5 class="mb-0">
+              <button class="btn collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Can I Buy Bitcoin In Wallet of Satoshi?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
+            <div class="card-body">
+              Yes, you can buy Bitcoin directly in the WoS app in over 160 countries! Just tap the green "Buy Bitcoin" button on the main screen and follow the prompts.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingSeven">
+            <h5 class="mb-0">
+              <button class="btn collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                How Do I Backup My Wallet of Satoshi?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
+            <div class="card-body">
+              To ensure you can access your wallet in the event of a broken or lost phone, just be sure to sign into your WoS with your email address. This will allow you to recover your balance and payment history on a new device.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingEight">
+            <h5 class="mb-0">
+              <button id="feesFaq" class="btn collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                What are the fees for BTC transactions?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion2">
+            <div class="card-body" >
+              There is a fixed fee applied when sending BTC 'on-chain' payments. This fee varies depending on the current state of the Bitcoin Mempool, and will be quoted to you before you confirm the payment.<br><br>
+              We have no control over the Bitcoin Miner Fees and, at times, it can be relatively expensive to ensure a transaction is included on the blockchain. <span class="text-primary">We strongly encourage all users to send via the Lightning Network where possible for faster, cheaper payments.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingNine">
+            <h5 class="mb-0">
+              <button id="btcCreditFaq" class="btn collapsed text-wrap" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine" style="white-space: wrap;">
+                I sent BTC to Wallet of Satoshi, why is it still <b><i>on the way</i></b>?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion2">
+            <div class="card-body" >
+              When you send a BTC 'on-chain' payment you must pay a miner fee. The size of that fee (and the state of the Mempool at the time) determines how soon a miner will include your transaction in the blockchain. If you or the exchange you sent from chose a fee that was too small, your payment may take many blocks to confirm - potentially hours or even days.<br><br>
+              <span class="text-primary">We have no control over this.</span> The exchange or wallet you sent from <b><i>may</i></b> have options to expedite the transaction. Please contact them.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--accordion-->
+  </div>
+</section>
+
+<footer class="main_footer">
+  <div class="container">
+    <div id="download" class="download">
+      <!--h3>Get started with the mobile app!</h3>
+      <p>Donec facilisis tortor ut augue lacinia, at viverra est semper. Sed sapien metus, scelerisque nec pharetra id, tempor a tortor.</p-->
+      <div class="download_links">
+        <!--<a href="https://twitter.com/walletofsatoshi"><i class="fab fa-twitter"></i> Follow us on Twitter to join the beta.</a>-->
+
+        <h3><a href="mailto:support@walletofsatoshi.com"><i class="fa fa-envelope"></i> Email us at support@walletofsatoshi.com</a></h3>
+        <br>
+
+        <a href="https://itunes.apple.com/us/app/wallet-of-satoshi/id1438599608">
+        <img src="./assets/icons/apple_download.png" alt="Download on the App Store" style="border: solid 2px #77787a;border-radius: 11px;">
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet">
+        <img src="./assets/icons/google-play-badge.png" alt="Get it on Google play">
+        </a>
+        <br>
+      </div>
+    </div>
+    <div class="footer_content">
+      <div class="footer_logo">
+        <img src="./assets/images/wallet-logo.svg" alt="Wallet of Satoshi" height="100" width="300"/>
+        <!--h5 class="font-weight-bold"><i class="fa fa-bolt small" style="color: #fad228"></i> Wallet of Satoshi</h5-->
+      </div>
+      <div><a href="https://bitcoinindustrybody.org.au/"><img src="./assets/images/ABIB-member.png" height="120px" class="float-right"></a></div>
+      <div><a href="https://bitcoinindustrybody.org.au/"><img src="./assets/images/Fintech+Finalist+Badge+2021.png" height="120px" class="float-right" style="padding:7px"></a></div>
+      <!--div class="footer_links">
+          <div>
+              <h5>FEATURES</h5>
+              <ul>
+                  <li><a href="#">Tour</a></li>
+                  <li><a href="#">Analytics</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">SmartEngine</a></li>
+              </ul>
+          </div>
+          <div>
+              <h5>BENEFITS</h5>
+              <ul>
+                  <li><a href="#">Management</a></li>
+                  <li><a href="#">Time Saving</a></li>
+                  <li><a href="#">Longterm Gains</a></li>
+                  <li><a href="#">Forecasting</a></li>
+              </ul>
+          </div>
+          <div>
+              <h5>DOWNLOADS</h5>
+              <ul>
+                  <li><a href="#">Android (Google Play)</a></li>
+                  <li><a href="#">Apple (App Store)</a></li>
+              </ul>
+          </div>
+          <div>
+              <h5>RESOURCES</h5>
+              <ul>
+                  <li><a href="#">API</a></li>
+                  <li><a href="#">Mobile SDK</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Videos</a></li>
+              </ul>
+          </div>
+      </div-->
+    </div>
+    <div class="footer_bottom">
+      <p>Copyright 2021 Wallet of Satoshi Pty Ltd  - ACN: 630 329 690
+      <br>
+      Terms of use of this service is detailed in our <a href="/disclosure.html"> Disclosure document</a> and <a href="/privacy.html">Privacy Policy</a></p>
+      <ul class="social_links">
+        <li><a href="https://www.facebook.com/walletofsatoshi"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/walletofsatoshi"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/walletofsatoshi/"><i class="fab fa-instagram"></i></a></li>
+        <!--li><a href="#"><i class="fab fa-google-plus-g"></i></a></li-->
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>

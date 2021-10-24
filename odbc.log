@@ -1,0 +1,71 @@
+** OpenLink ODBC Trace file for Microsoft Excel **
+
+Driver: 08.00.210526 OpenLink SQL Server Lite Driver
+
+connStr=[DSN]
+  key=[DSN] data=[cryptocurrency] supplied=1
+  key=[DRIVER] data=[] supplied=0
+  key=[UID] data=[admin] supplied=1
+  key=[DATABASE] data=[] supplied=0
+  key=[OPTIONS] data=[-N 1 -O 1 -S blockchain.com -Z -X] supplied=1
+  key=[READONLY] data=[No] supplied=1
+  key=[DLF] data=[No] supplied=1
+  key=[FBS] data=[60] supplied=1
+  key=[JET] data=[No] supplied=1
+  key=[NOAC] data=[No] supplied=1
+  key=[MAXROWS] data=[0] supplied=1
+  key=[INITSQL] data=[/Users/samazrai/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - kali nethunter/Electrum/Electrum.app] supplied=1
+  key=[SQLDBMS] data=[mysql] supplied=1
+  key=[SERVICE] data=[Sybase::blockchain.com(localhost:1433)] supplied=1
+  key=[TDSHOST] data=[localhost] supplied=1
+  key=[TDSPORT] data=[1433] supplied=1
+  key=[NLB] data=[No] supplied=1
+  key=[CURSOR_SENSITIVITY] data=[Low] supplied=1
+  key=[NRSSL] data=[No] supplied=1
+  key=[TRUSTEDCONN] data=[No] supplied=1
+  key=[CHARSETTRDIS] data=[No] supplied=1
+  key=[MASE] data=[Yes] supplied=1
+  key=[IV] data=[Yes] supplied=1
+  key=[IA] data=[No] supplied=1
+  key=[OPL_DEBUGFILE] data=[/Users/samazrai/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - kali nethunter/Electrum/odbc.log] supplied=1
+  key=[NO_QUOTED_IDENTIFIERS] data=[Yes] supplied=1
+  key=[WideAsUTF16] data=[No] supplied=1
+cn_svtype=[SQLServer 2000]
+cn_dbpath=[]
+cn_dbopts=[-N 1 -O 1 -S blockchain.com -Z -X]
+cn_readonly=0
+cn_fetchSize=60
+cn_deferLongFetch=0
+cn_jetfix=0
+cn_noautocommit=0
+cn_norowsetsizelimit=0
+cn_maxrows=0
+cn_appname=[Microsoft Excel]
+cn_sqldbmsname=[mysql]
+SetLiteEnvironment: ServerType = SQLServer 2000
+SetLiteEnvironment: inifile = [openlink.ini]
+ConnOpen: Unable to allocate connection handle
+[107D00600] SQLDriverConnect: returning SQL_SUCCESS_WITH_INFO
+
+[107D00600] SQLGetInfo hDbc=20007
+fInfoType=23 rgbInfoValue=7FC9BAB387F8 cbInfoValueMax=2 pcbInfoValue=0
+[107D00600] SQLGetInfo: returning SQL_ERROR
+
+[107D00600] SQLGetInfo hDbc=20007
+fInfoType=24 rgbInfoValue=7FC9BAB387FA cbInfoValueMax=2 pcbInfoValue=0
+[107D00600] SQLGetInfo: returning SQL_ERROR
+
+[107D00600] SQLGetInfo hDbc=20007
+fInfoType=13 rgbInfoValue=7FF7BC341A00 cbInfoValueMax=2050 pcbInfoValue=7FF7BC3422AC
+[107D00600] SQLGetInfo: returning SQL_ERROR
+
+[107D00600] SQLGetInfo hDbc=20007
+fInfoType=29 rgbInfoValue=7FF7BC341A00 cbInfoValueMax=2050 pcbInfoValue=7FF7BC3422AC
+[107D00600] SQLGetInfo: returning SQL_ERROR
+
+[107D00600] SQLAllocStmt hDbc=20007
+phstmt=7FC9BB7D7668
+[107D00600] SQLAllocStmt: returning SQL_ERROR
+
+[107D00600] SQLDisconnect hDbc=20007
+[107D00600] SQLDisconnect: returning SQL_ERROR
