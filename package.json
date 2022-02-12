@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "bitcoin-api": "^3.6.19",
-    "react-state-management": "^1.0.3"
+    "react-state-management": "^1.0.4"
   },
   "peerDependencies": {
     "@react-native-community/async-storage": "^1.9.0",
