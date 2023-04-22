@@ -30,7 +30,7 @@
     "url": "https://github.com/bitcoin-api/bitcoin-app/issues"
   },
   "dependencies": {
-    "bitcoin-api": "^3.6.19",
+    "bitcoin-api": "^6.0.5",
     "react-state-management": "^1.0.3"
   },
   "peerDependencies": {
